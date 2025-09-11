@@ -4,7 +4,7 @@
 #### LVM käyttö suositeltavaa.
 <br/>
 
-#### Ennen Debian peilipalvelimen asennusta tutustutaan yleiseen Debian peili konfiguraatiotiedostoon 'global-deb.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi. Muuten yleisen konfiguraatiotiedoston voi nimetä vapaasti. mirror-and-snapshot scriptinkin voi nimetä vapaasti.
+#### Ennen Debian peilipalvelimen asennusta tutustutaan yleiseen Debian peili konfiguraatiotiedostoon 'global-deb.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi. Muuten yleisen konfiguraatiotiedoston voi nimetä vapaasti. Myös mirror-and-snapshot scriptinkin voi nimetä vapaasti.
 #### Tiedosto sisältää mm. asetukset hakemistoille minne dataa tallennetaan. 
 
 
