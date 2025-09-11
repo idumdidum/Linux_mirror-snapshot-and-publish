@@ -9,6 +9,19 @@ The script works on Alma, Debian, Rocky and Ubuntu Linux.
 ![mirrordebian](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/common.jpg)
 <br/><br/>
 
+Below is a table of what kind of host can be used to mirror and take a snapshot of any Linux repository.
+| Host        | Mirrored archive   | Mirrored archive  | Mirrored archive  | Mirrored archive  | Mirrored archive  | Mirrored archive  | Mirrored archive  |
+| :-------------: |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Alma        | Alma   | Rocky  | Debian| Alma | Fedora | Mint | Kali |
+| Debian      | Debian | Ubuntu | Rocky | Alma | Fedora | Mint | Kali |
+| Fedora      | Alma (not tested)  | Rocky (not tested)  | Debian (not tested)| Alma (not tested) | Fedora (not tested) | Mint (not tested) | Kali (not tested) |
+| Mint      | Alma (not tested)  | Rocky (not tested)  | Debian (not tested)| Alma (not tested) | Fedora (not tested) | Mint (not tested) | Kali (not tested) |
+| Kali      | Alma (not tested)  | Rocky not tested)  | Debian (not tested)| Alma (not tested) | Fedora (not tested) | Mint (not tested) | Kali (not tested) |
+| Rocky       | Rocky  | Alma   | Debian|Ubuntu| Fedora | Mint | Kali |
+| Ubuntu      | Ubuntu | Debian | Rocky | Alma | Fedora | Mint | Kali |
+
+<br/><br/>
+
 ![all](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/linuxall.jpg)
 <br/><br/>
 debMirror
@@ -34,17 +47,3 @@ https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/tree/main/Rocky
 
 https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/tree/main/Ubuntu
 <br/><br/>
-
-Below is a table of what kind of host can be used to mirror and take a snapshot of any Linux repository.
-
-| Host        | Mirrored archive   | Mirrored archive  | Mirrored archive  | Mirrored archive  | Mirrored archive  | Mirrored archive  | Mirrored archive  |
-| :-------------: |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Alma        | Alma   | Rocky  | Debian| Alma | Fedora | Mint | Kali |
-| Debian      | Debian | Ubuntu | Rocky | Alma | Fedora | Mint | Kali |
-| Fedora      | Alma (not tested)  | Rocky (not tested)  | Debian (not tested)| Alma (not tested) | Fedora (not tested) | Mint (not tested) | Kali (not tested) |
-| Mint      | Alma (not tested)  | Rocky (not tested)  | Debian (not tested)| Alma (not tested) | Fedora (not tested) | Mint (not tested) | Kali (not tested) |
-| Kali      | Alma (not tested)  | Rocky not tested)  | Debian (not tested)| Alma (not tested) | Fedora (not tested) | Mint (not tested) | Kali (not tested) |
-| Rocky       | Rocky  | Alma   | Debian|Ubuntu| Fedora | Mint | Kali |
-| Ubuntu      | Ubuntu | Debian | Rocky | Alma | Fedora | Mint | Kali |
-
-
