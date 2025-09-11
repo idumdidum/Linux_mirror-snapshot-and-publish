@@ -10,6 +10,17 @@ päivittäiset tilannekuvat, jotka julkaistaan yksilölliseen web-osoitteeseen.
 ![mirrordebian](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/tavallinen.jpg)
 <br/><br/>
 
+| Isäntä        | Peilattava arkisto   | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  |
+| :-------------: |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Alma        | Alma   | Rocky  | Debian | Ubuntu | Fedora | Mint | Kali |
+| Debian      | Debian | Ubuntu | Rocky | Alma | Fedora | Mint | Kali |
+| Fedora      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) |  Mint (ei testattu) | Kali (ei testattu) |
+| Mint      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) | Mint (ei testattu) | Kali (ei testattu) |
+| Kali      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) | Mint (ei testattu) | Kali (ei testattu) |
+| Rocky       | Rocky  | Alma   | Debian|Ubuntu| Fedora | Mint | Kali |
+| Ubuntu      | Ubuntu | Debian | Rocky | Alma | Fedora | Mint | Kali |
+<br/><br/>
+
 ![all](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/linuxkaikki.jpg)
 <br/><br/>
 debMirror
@@ -38,14 +49,5 @@ https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/tree/main/Ubuntu
 
 Alla taulukko millaista isäntäkonetta voidaan käyttää minkin Linux arkiston peilaukseen ja tilannekuvan ottamiseen.
 
-| Isäntä        | Peilattava arkisto   | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  | Peilattava arkisto  |
-| :-------------: |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Alma        | Alma   | Rocky  | Debian | Ubuntu | Fedora | Mint | Kali |
-| Debian      | Debian | Ubuntu | Rocky | Alma | Fedora | Mint | Kali |
-| Fedora      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) |  Mint (ei testattu) | Kali (ei testattu) |
-| Mint      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) | Mint (ei testattu) | Kali (ei testattu) |
-| Kali      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) | Mint (ei testattu) | Kali (ei testattu) |
-| Rocky       | Rocky  | Alma   | Debian|Ubuntu| Fedora | Mint | Kali |
-| Ubuntu      | Ubuntu | Debian | Rocky | Alma | Fedora | Mint | Kali |
 
 
