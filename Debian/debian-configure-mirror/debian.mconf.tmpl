@@ -1,0 +1,13 @@
+mirrortype=deb
+host=ftp.fi.debian.org
+arch=amd64
+dist=bookworm,bookworm-updates
+section=main,contrib,non-free,non-free-firmware
+mirrorname=debian
+rootdir=debian
+debmirroroptions="--no-source --i18n"
+downloadmethod=rsync
+enabled=yes
+verifysha256=yes
+createsnapshot=yes
+monthlycleanupday=firstday

@@ -1,0 +1,12 @@
+globaltype=deb
+domain=debianlinux.mirror.lan
+mainsitename=uptodate
+allsnapshotssitename=allsnapshots
+usessl=no
+mirrorconfdir=/etc/mirrordeb
+mirrordatadir=/srv/mirrordatadeb
+mirrortempdir=/srv/mirrortempdeb
+snapshotdir=/srv/mirrorsnapshotsdeb
+logdir=/var/log/mirror
+logname=${hdate}_${globaltype}_mirror.log
+mirroruser=
