@@ -20,6 +20,7 @@ Alla taulukko millaista isäntäkonetta voidaan käyttää minkin Linux arkiston
 | Kali      | Alma (ei testattu)  | Rocky (ei testattu)  | Debian (ei testattu)| Alma (ei testattu) | Fedora (ei testattu) | Mint (ei testattu) | Kali (ei testattu) |
 | Rocky       | Rocky  | Alma   | Debian|Ubuntu| Fedora | Mint | Kali |
 | Ubuntu      | Ubuntu | Debian | Rocky | Alma | Fedora | Mint | Kali |
+
 <br/><br/>
 
 ![all](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/linuxkaikki.jpg)
