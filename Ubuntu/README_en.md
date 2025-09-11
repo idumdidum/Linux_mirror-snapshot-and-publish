@@ -4,7 +4,7 @@
 #### LVM usage recommended.
 <br/>
 
-#### Before installing the Ubuntu mirror server, let's familiarize ourselves with the general Ubuntu mirror configuration file 'global-deb.gconf'. The file extension must be .gconf and there can only be one of them.
+#### Before installing the Ubuntu mirror server, let's familiarize ourselves with the global Ubuntu mirror configuration file 'global-deb.gconf'. The file extension must be .gconf and there can only be one of them.
 #### The file contains, among other things, settings for directories where data is stored.
 
 
@@ -101,7 +101,7 @@ NOTE -n is not mandatory<br/>
 First stage:
 - create the account needed for mirroring
 - create folders and set permissions for folders
-- copy the mirror's general configuration file to the home directory of the created account ('global-deb.gconf':mirrorconfdir=/etc/mirrordeb)
+- copy the mirror's global configuration file to the home directory of the created account ('global-deb.gconf':mirrorconfdir=/etc/mirrordeb)
 - create trustedkeys.gpg keyring
 - install programs<br/>
 
