@@ -4,7 +4,7 @@
 #### LVM käyttö suositeltavaa.
 <br/>
 
-#### Ennen Ubuntu peilipalvelimen asennusta tutustutaan yleiseen Ubuntu peili konfiguraatiotiedostoon 'global-deb.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi. Muuten yleisen konfiguraatiotiedoston voi nimetä vapaasti. Myös mirror-and-snapshot scriptinkin voi nimetä vapaasti.
+#### Ennen Ubuntu peilipalvelimen asennusta tutustutaan yleiseen Ubuntu peili konfiguraatiotiedostoon 'global-deb.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi. Muuten yleisen konfiguraatiotiedoston voi nimetä vapaasti. Myös mirror-and-snapshot scriptin voi nimetä vapaasti.
 #### Tiedosto sisältää mm. asetukset hakemistoille minne dataa tallennetaan. 
 
 
