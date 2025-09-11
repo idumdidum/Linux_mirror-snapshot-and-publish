@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+        muutaServerName
+        muutaDocumentRoot
+        ErrorLog apache2logpath/version_error.log
+        CustomLog apache2logpath/version_access.log combined
+<Directory muutaDoc/>
+        Options Indexes FollowSymLinks
+        AllowOverride None
+        Require all granted
+</Directory>
+</VirtualHost>
