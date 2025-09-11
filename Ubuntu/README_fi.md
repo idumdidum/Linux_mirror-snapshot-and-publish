@@ -4,7 +4,7 @@
 #### LVM käyttö suositeltavaa.
 <br/>
 
-#### Ennen Ubuntu peilipalvelimen asennusta tutustutaan yleiseen Ubuntu peili konfiguraatiotiedostoon 'global-deb.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi.
+#### Ennen Ubuntu peilipalvelimen asennusta tutustutaan yleiseen Ubuntu peili konfiguraatiotiedostoon 'global-deb.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi. Muuten yleisen konfiguraatiotiedoston voi nimetä vapaasti. Myös mirror-and-snapshot scriptinkin voi nimetä vapaasti.
 #### Tiedosto sisältää mm. asetukset hakemistoille minne dataa tallennetaan. 
 
 
@@ -34,7 +34,7 @@ logdir=/var/log/mirror
 logname=${hdate}_${globaltype}_mirror.log
 <br/><br/>
 #### Tutustutaan myös peili konfiguraatiotiedostoon ubuntu.mconf.tmpl.
-#### Peili konfiguraatiotiedostoja voi olla useita. Tiedostopäätteen tulee olla .mconf ja hakemisto, jossa .mconf tiedostojen tulee sijaita määritellään Ubuntu peilin yleisessä konfiguraatiotiedostossa ('global-deb.gconf':mirrorconfdir=/etc/mirrordeb).
+#### Peili konfiguraatiotiedostoja voi olla useita. Tiedostopäätteen tulee olla .mconf ja hakemisto, jossa .mconf tiedostojen tulee sijaita määritellään Ubuntu peilin yleisessä konfiguraatiotiedostossa ('global-deb.gconf':mirrorconfdir=/etc/mirrordeb). Muuten peili konfiguraatiotiedostot voi nimetä vapaasti.
 
 Peili konfiguraatio esimerkkejä:<br/>
 https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Ubuntu/ubuntu.mconf.tmpl
