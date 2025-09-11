@@ -1,0 +1,12 @@
+globaltype=rpm
+domain=alma.mirror.lan
+mainsitename=uptodate
+allsnapshotssitename=allsnapshots
+usessl=no
+mirrorconfdir=/etc/mirrorrpm
+mirrordatadir=/srv/mirrordatarpm
+mirrortempdir=/srv/mirrortemprpm
+snapshotdir=/srv/snapshotsrpm
+logdir=/var/log/mirror
+logname=${hdate}_${globaltype}_mirror.log
+mirroruser=
