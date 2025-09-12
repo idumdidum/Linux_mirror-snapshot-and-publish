@@ -5,7 +5,7 @@
 <br/>
 
 #### Ennen Rocky peilipalvelimen asennusta tutustutaan yleiseen Rocky peili konfiguraatiotiedostoon 'global-rpm.gconf'. Tiedostopäätteen tulee olla .gconf ja niitä saa olla vain yksi.
-#### Tiedosto sisältää mm. asetukset hakemistoille minne dataa tallennetaan. 
+#### Tiedosto sisältää mm. asetukset hakemistoille minne dataa tallennetaan. Muuten yleisen konfiguraatiotiedoston voi nimetä vapaasti. Myös mirror-and-snapshot scriptinkin voi nimetä vapaasti.
 
 
 #### Esimerkki https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Rocky/global-rpm.gconf:
@@ -34,7 +34,7 @@ logdir=/var/log/mirror
 logname=${hdate}_${globaltype}_mirror.log
 <br/><br/>
 #### Tutustutaan myös peili konfiguraatiotiedostoon rocky.mconf.tmpl.
-#### Peili konfiguraatiotiedostoja voi olla useita. Tiedostopäätteen tulee olla .mconf ja hakemisto, jossa .mconf tiedostojen tulee sijaita määritellään Rocky peilin yleisessä konfiguraatiotiedostossa ('global-rpm.gconf':mirrorconfdir=/etc/mirrorrpm).
+#### Peili konfiguraatiotiedostoja voi olla useita. Tiedostopäätteen tulee olla .mconf ja hakemisto, jossa .mconf tiedostojen tulee sijaita määritellään Rocky peilin yleisessä konfiguraatiotiedostossa ('global-rpm.gconf':mirrorconfdir=/etc/mirrorrpm). Muuten peili konfiguraatiotiedostot voi nimetä vapaasti.
 
 Peili konfiguraatio esimerkkejä:<br/>
 https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Rocky/almalinux.mconf.tmpl<br/>
