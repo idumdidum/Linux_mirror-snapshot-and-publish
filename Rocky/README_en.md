@@ -5,7 +5,7 @@
 <br/>
 
 #### Before installing the Rocky mirror server, let's familiarize ourselves with the global Rocky mirror configuration file 'global-rpm.gconf'. The file extension must be .gconf and there can only be one of them.
-#### The file contains, among other things, settings for directories where data is stored.
+#### The file contains, among other things, settings for directories where data is stored. Otherwise, you can name the global configuration file whatever you want. You can also name the mirror-and-snapshot script whatever you want.
 
 
 #### Example https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Rocky/global-rpm.gconf:
@@ -34,7 +34,7 @@ logdir=/var/log/mirror
 logname=${hdate}_${globaltype}_mirror.log
 <br/><br/>
 #### Let's take a look at the mirror configuration file rocky.mconf.tmpl.
-#### There can be multiple mirror configuration files. The file extension must be .mconf and the directory where the .mconf files should be located is specified in the Rocky mirror's global configuration file ('global-rpm.gconf':mirrorconfdir=/etc/mirrorrpm).
+#### There can be multiple mirror configuration files. The file extension must be .mconf and the directory where the .mconf files should be located is specified in the Rocky mirror's global configuration file ('global-rpm.gconf':mirrorconfdir=/etc/mirrorrpm). Otherwise, the mirror configuration files can be named freely.
 
 Mirror configuration examples:<br/>
 https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Rocky/almalinux.mconf.tmpl<br/>
