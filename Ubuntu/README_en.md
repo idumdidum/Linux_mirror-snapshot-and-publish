@@ -5,7 +5,7 @@
 <br/>
 
 #### Before installing the Ubuntu mirror server, let's familiarize ourselves with the global Ubuntu mirror configuration file 'global-deb.gconf'. The file extension must be .gconf and there can only be one of them.
-#### The file contains, among other things, settings for directories where data is stored.
+#### The file contains, among other things, settings for directories where data is stored. Otherwise, you can name the global configuration file whatever you want. You can also name the mirror-and-snapshot script whatever you want.
 
 
 #### Example https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Ubuntu/global-deb.gconf:
@@ -34,7 +34,7 @@ logdir=/var/log/mirror
 logname=${hdate}_${globaltype}_mirror.log
 <br/><br/>
 #### Let's take a look at the mirror configuration file ubuntu.mconf.
-#### There can be multiple mirror configuration files. The file extension must be .mconf and the directory where the .mconf files should be located is specified in the Ubuntu mirror's global configuration file ('global-deb.gconf':mirrorconfdir=/etc/mirrordeb).
+#### There can be multiple mirror configuration files. The file extension must be .mconf and the directory where the .mconf files should be located is specified in the Ubuntu mirror's global configuration file ('global-deb.gconf':mirrorconfdir=/etc/mirrordeb). Otherwise, the mirror configuration files can be named freely.
 
 Mirror configuration examples:<br/>
 https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Ubuntu/ubuntu.mconf.tmpl
