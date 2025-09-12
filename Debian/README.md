@@ -4,7 +4,7 @@ Ohjeet
 
 [![fi](https://img.shields.io/badge/lang-FI-blue.svg)](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Debian/README_fi.md)
 
-Katso video Debian peilipalvelimen konfiguroinnista [Yuotube](https://www.youtube.com/watch?v=rqDJAQ7DcxM).
+Katso video Debian peilipalvelimen konfiguroinnista [Yuotube](https://www.youtube.com/watch?v=eSRHLC7P_ZI).
 
 ## Mirroring Debian Linux repositories, taking a snapshot from the mirror, and publishing the snapshot
 
