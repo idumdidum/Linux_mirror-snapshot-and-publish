@@ -34,7 +34,7 @@ logdir=/var/log/mirror
 logname=${hdate}_${globaltype}_mirror.log
 <br/><br/>
 #### Let's take a look at the mirror configuration file alma.mconf.tmpl.
-#### There can be multiple mirror configuration files. The file extension must be .mconf and the directory where the .mconf files should be located is specified in the Alma mirror's global configuration file ('global-rpm.gconf':mirrorconfdir=/etc/mirrorrpm).Otherwise, the mirror configuration files can be named freely.
+#### There can be multiple mirror configuration files. The file extension must be .mconf and the directory where the .mconf files should be located is specified in the Alma mirror's global configuration file ('global-rpm.gconf':mirrorconfdir=/etc/mirrorrpm). Otherwise, the mirror configuration files can be named freely.
 
 Mirror configuration examples:<br/>
 https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Alma/almalinux.mconf.tmpl<br/>
