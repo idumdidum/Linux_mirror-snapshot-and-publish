@@ -4,8 +4,8 @@
 #### LVM usage recommended.
 <br/>
 
-#### Before installing the Debian mirror server, let's familiarize ourselves with the global Debian mirror configuration file 'global-deb.gconf'. The file extension must be .gconf and there can only be one of them.
-#### The file contains, among other things, settings for directories where data is stored. Otherwise, you can name the global configuration file whatever you want. You can also name the mirror-and-snapshot script whatever you want.
+#### Before installing the Debian mirror server, let's familiarize ourselves with the global Debian mirror configuration file 'global-deb.gconf'. The file extension must be .gconf and there can only be one of them. Otherwise, you can name the global configuration file whatever you want. You can also name the mirror-and-snapshot script whatever you want.
+#### The file contains, among other things, settings for directories where data is stored.
 
 
 #### Example https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Debian/global-deb.gconf:
