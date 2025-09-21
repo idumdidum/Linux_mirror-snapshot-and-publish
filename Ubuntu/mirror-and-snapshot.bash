@@ -1872,20 +1872,17 @@ echo "Daily snapshot URL:"
 for mname in ${cmirrorname[@]}
 do
     check="${daily}.${domain}/${mname}"
-    for usessla in ${ausessl[@]}
-    do
-        if [ ${usessla} == "no" ]
-        then
-            snaps+=("http://${check}")
-        elif [ ${usessla} == "yes" ]
-        then
-            snaps+=("https://${check}")
-        elif [ ${usessla} == "both" ]
-        then
-            snaps+=("http://${check}")
-            snaps+=("https://${check}")
-        fi
-    done
+    if [ ${usessl} == "no" ]
+    then
+        snaps+=("http://${check}")
+    elif [ ${usessl} == "yes" ]
+    then
+        snaps+=("https://${check}")
+    elif [ ${usessl} == "both" ]
+    then
+        snaps+=("http://${check}")
+        snaps+=("https://${check}")
+    fi
 done
 for naps in ${snaps[@]}
 do
@@ -1907,19 +1904,19 @@ do
         echo "http://${dpubl}.${domain}/  -> ${dailyname}" >> ${snapshotdir}/Published_snapshots
     fi
 done
-if [ ${usessla} == "no" ]
+if [ ${usessl} == "no" ]
 then
     echo "Published snapshots:"
     echo "http://${allsnapshotssitename}.${domain}/Published_snapshots"
     echo "All snapshots:"
     echo "http://${allsnapshotssitename}.${domain}/"
-elif [ ${usessla} == "yes" ]
+elif [ ${usessl} == "yes" ]
 then
     echo "Published snapshots:"
     echo "https://${allsnapshotssitename}.${domain}/Published_snapshots"
     echo "All snapshots:"
     echo "https://${allsnapshotssitename}.${domain}/"
-elif [ ${usessla} == "both" ]
+elif [ ${usessl} == "both" ]
 then
     echo "Published snapshots:"
     echo "http://${allsnapshotssitename}.${domain}/Published_snapshots"
