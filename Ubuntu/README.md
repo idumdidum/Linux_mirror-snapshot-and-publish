@@ -4,7 +4,7 @@ Ohjeet
 
 [![fi](https://img.shields.io/badge/lang-FI-blue.svg)](https://github.com/idumdidum/Linux_mirror-snapshot-and-publish/blob/main/Ubuntu/README_fi.md)
 
-Katso video Ubuntu peilipalvelimen konfiguroinnista [Yuotube](https://www.youtube.com/watch?v=eSRHLC7P_ZI).
+Katso video Ubuntu peilipalvelimen konfiguroinnista [Yuotube](https://www.youtube.com/watch?v=lQh-pN2H7qQ).
 
 ## Mirroring Ubuntu Linux repositories, taking a snapshot from the mirror, and publishing the snapshot
 
