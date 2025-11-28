@@ -1,6 +1,6 @@
 <br/><br/>
-A regular local Linux mirror server works fine, but if you need to first update the test servers and then, after testing, possibly update the production servers with the same updates a few days later, it won't necessarily work.
-Linux mirrors are updated daily, so it is not certain whether the same updates are available for production servers as for test servers.
+A regular local Linux mirror server works fine. However, if you have test hosts and production hosts, a regular Linux mirror server is not necessarily a suitable solution.
+Linux mirrors are usually updated daily and new updates may arrive daily. Test hosts may be tested for several days and therefore it cannot be certain whether the same updates as the test hosts will be available for production hosts.
 To fix this problem I have written a bash script. 'mirror-and-snapshot.bash'.
 The script works on Alma, Debian, Rocky and Ubuntu Linux.
 
