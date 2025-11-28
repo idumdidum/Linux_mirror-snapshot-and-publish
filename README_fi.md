@@ -1,6 +1,6 @@
 <br/><br/>
-Tavallinen paikallinen Linux peilipalvelin toimii hyvin, mutta jos on tarve ensin päivittää testipalvelimet ja testauksen jälkeen mahdollisesti päiviä myöhemmin päivittää tuotatopalvelimet samoilla päivityksillä, niin se ei vättämattä onnistu.
-Linux peilejä päivitetään päivittäin, joten ei voida olla varmoja onko tuotantopalvelimiin enää saatavilla samoja päivityksia, kuin testipalvelimiin.
+Tavallinen paikallinen Linux peilipalvelin toimii hyvin. Tosin jos on testi-isäntiä ja tuotantoisäöntiä, niin tavallinen Linux peilipalvelin ei vättämttä ole sopiva ratkaisu.
+Linux peilejä päivitetään tavallisesti päivittäin ja uusia päivityksiä voi tulla päivittäin. Testi-isäntiä testataan mahdollisesti useita päiviä ja näin ollen ei voida olla varmoja onko tuotoisäntiin enää saatavilla samoja päivityksiä, kuin testi-isäntiin.
 Tämän ongelman korjaamiseksi olen kirjoittanut bash scriptin.
 Alma, Debian, Rocky ja Ubuntu Linuxille 'mirror-and-snapshot.bash'.
 
